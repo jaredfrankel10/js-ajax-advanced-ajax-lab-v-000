@@ -6,12 +6,12 @@
   <body>
     <main id="main">
       <a href="#" onclick="getRepositories()">Get Repositories</a>
- 
+
        <div id="repositories">
        </div>
- 
+
       </main>
- 
+
      <script id="repository-template" type="text/x-handlebars-template">
        <ul>
          {{#each this}}
@@ -25,7 +25,7 @@
          {{/each}}
        </ul>
      </script>
- 
+
      <script id="author-partial-template" type="text/x-handlebars-template">
        <section>
          <header>
